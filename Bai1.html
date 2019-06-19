@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai1</title>
+</head>
+<body>
+    <script>
+        let diemLy;
+        let diemHoa;
+        let diemSinh;
+        diemLy= prompt("Nhap vao diem Ly: ");
+        diemHoa= prompt("Nhap vao diem Hoa: ");
+        diemSinh= prompt("Nhap vao diem Sinh: ");
+        let Ly= parseFloat(diemLy);
+        let Hoa=parseFloat(diemHoa);
+        let Sinh=parseFloat(diemSinh);
+
+        let TBC=(Ly + Hoa + Sinh)/3;
+        document.write("Diem trung binh cong la: " + TBC);
+    </script>
+</body>
+</html>
